@@ -1,15 +1,7 @@
 # B-W-to-colour-ML-project
-Deep Learning project to colorize black &amp; white images using OpenCV DNN
-Here is a **clean, well-structured `README.md`** for your Black & White Image Colorization project implemented in Jupyter Notebook. This README is tailored for GitHub, highlights your use of Jupyter, and provides clear instructions for anyone who wants to run or understand your project.
-
----
-
-# Black & White Image Colorization with Deep Learning
-
-This project demonstrates how to **colorize black & white images using deep learning** with Python, OpenCV, and Jupyter Notebook.  
-It uses a pre-trained convolutional neural network (CNN) to predict realistic color information for grayscale images.
-
-Demo Animation Table of Contents
+This project is developed to colourize a BnW image 
+this Black & White Image Colorization project is implemented in Jupyter Notebook.Using a pre-trained Deep learnig model developed by  [this guide](https://github.com/richzhang/colorization) , using OpenCV Libraries.
+The pre-trained convolutional neural network (CNN) model predicts realistic color information from a grayscale image.
 
 - [Introduction](#introduction)
 - [Lab Color Space](#lab-color-space)
@@ -21,14 +13,12 @@ Demo Animation Table of Contents
 - [GUI Application (Optional)](#gui-application-optional)
 - [References](#references)
 
----
 
 ## Introduction
 
-Image colorization is the process of adding plausible color to grayscale images.  
+Image colorization is the process of adding color to grayscale images.  
 This project uses a deep learning model (trained on ImageNet) to automatically colorize black & white images with minimal user input.
 
----
 
 ## Lab Color Space
 
