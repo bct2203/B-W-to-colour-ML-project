@@ -9,7 +9,7 @@ Here is a **clean, well-structured `README.md`** for your Black & White Image Co
 This project demonstrates how to **colorize black & white images using deep learning** with Python, OpenCV, and Jupyter Notebook.  
 It uses a pre-trained convolutional neural network (CNN) to predict realistic color information for grayscale images.
 
-![Demo Animation Table of Contents
+Demo Animation Table of Contents
 
 - [Introduction](#introduction)
 - [Lab Color Space](#lab-color-space)
