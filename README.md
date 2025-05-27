@@ -29,7 +29,6 @@ Unlike RGB, the **Lab color space** separates lightness (L) from color informati
 
 The grayscale part of the image is encoded in the L channel, making Lab ideal for colorization tasks.
 
----
 
 ## How It Works
 
@@ -39,7 +38,7 @@ The grayscale part of the image is encoded in the L channel, making Lab ideal fo
 4. **Postprocessing:** Combine the original L channel with the predicted a and b channels.
 5. **Output:** Convert back to RGB and display/save the colorized image.
 
----
+
 
 ## Setup & Installation
 
@@ -58,7 +57,7 @@ The grayscale part of the image is encoded in the L channel, making Lab ideal fo
 
    If you need help downloading, see instructions in the notebook or [this guide](https://github.com/richzhang/colorization).
 
----
+
 
 ## How to Run (Jupyter Notebook)
 
@@ -67,9 +66,12 @@ The grayscale part of the image is encoded in the L channel, making Lab ideal fo
    - The notebook will guide you through loading the image, running the model, and displaying the result.
 3. **Replace `new.jpg`** with your own grayscale image to colorize your own photos.
 
----
+
 
 ## Sample Results
+ The input image is in image.jpg
+ The colourized image is stored in result.jpg
+you can check for results.
 
 
 
