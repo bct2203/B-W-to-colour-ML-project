@@ -1,12 +1,11 @@
 # B-W-to-colour-ML-project
-This project is developed to colourize a BnW image 
-this Black & White Image Colorization project is implemented in Jupyter Notebook.Using a pre-trained Deep learnig model developed by  [this guide](https://github.com/richzhang/colorization) , using OpenCV Libraries.
+This project is developed to colourize a BnW image .
+This Black & White Image Colorization project is implemented in Jupyter Notebook using a pre-trained Deep learnig model developed by  [this guide](https://github.com/richzhang/colorization) , using OpenCV Libraries.
 The pre-trained convolutional neural network (CNN) model predicts realistic color information from a grayscale image.
 
 - [Introduction](#introduction)
 - [Lab Color Space](#lab-color-space)
 - [How It Works](#how-it-works)
-- [Project Structure](#project-structure)
 - [Setup & Installation](#setup--installation)
 - [How to Run (Jupyter Notebook)](#how-to-run-jupyter-notebook)
 - [Sample Results](#sample-results)
@@ -42,25 +41,6 @@ The grayscale part of the image is encoded in the L channel, making Lab ideal fo
 
 ---
 
-## Project Structure
-
-```
-project/
-│
-├── BlackWhite_Colorization.ipynb   # Main Jupyter notebook
-├── gui.py                         # (Optional) GUI for colorization
-├── pts_in_hull.npy                # Cluster centers for ab channels
-├── models/
-│   ├── colorization_deploy_v2.prototxt
-│   └── colorization_release_v2.caffemodel
-├── new.jpg                        # Example input image
-├── result.png                     # Example output image
-├── Animation.gif                  # Demo animation (optional)
-└── README.md                      # This file
-```
-
----
-
 ## Setup & Installation
 
 1. **Clone this repository** or download the files.
@@ -91,11 +71,7 @@ project/
 
 ## Sample Results
 
-| Input (Grayscale)   | Output (Colorized)    |
-|---------------------|-----------------------|
-|       |        |
 
----
 
 ## GUI Application (Optional)
 
